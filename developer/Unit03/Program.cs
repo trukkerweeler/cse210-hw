@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace Unit03
+﻿namespace Unit03
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game game = new Unit03.Game();
+            game.StartGame();
         }
     }
 }

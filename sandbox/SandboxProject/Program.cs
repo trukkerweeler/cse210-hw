@@ -1,4 +1,5 @@
 ﻿using System;
+using Raylib_cs;
 
 namespace SandboxProject
 {
@@ -6,6 +7,7 @@ namespace SandboxProject
     {
         static void Main(string[] args)
         {
+            Raylib.InitWindow(500,500,"Test");
             Console.WriteLine("Hello World!");
         }
     }
