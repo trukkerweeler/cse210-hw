@@ -108,5 +108,3 @@ namespace Unit02.Game
         }
     }
 }
-
-
