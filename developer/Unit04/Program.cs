@@ -52,7 +52,7 @@ namespace Unit04
             Random random = new Random();
             for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
             {
-                string text = ((char)(42)).ToString();
+                string text = "O";
 
                 int x = random.Next(1, COLS);
                 int y = random.Next(1, ROWS);
@@ -69,13 +69,13 @@ namespace Unit04
                 artifact.SetFontSize(FONT_SIZE);
                 artifact.SetColor(color);
                 artifact.SetPosition(position);
-                artifact.SetScore(10);
+                artifact.SetScore(-10);
                 cast.AddActor("artifacts", artifact);
             }
 
             for (int i = 0; i < DEFAULT_ARTIFACTS; i++)
             {
-                string text = ((char)(111)).ToString();
+                string text = "*";
 
                 int x = random.Next(1, COLS);
                 int y = random.Next(1, ROWS);
